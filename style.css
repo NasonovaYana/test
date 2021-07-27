@@ -1,40 +1,47 @@
 body {
     background-color: #FFFFFF;
-
+    margin: auto;
 }
 
 .menu {
     height: 80px;
 }
-.menu>p{
-     display: inline-block;
+.menu ul{
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+    color: #464243;
+}
+.menu li{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
     font-family: Circe;
     font-style: normal;
-    font-weight: 400;
     color: #333333;
-    
 }
 .menu__logo{
-    height: 70px;
-    margin-top: 5px;
-    margin-left: 135px;
+    padding-right: 10px;
 }
 .menu__title{
-    line-height: 20px;
+    padding-right: 135px;
     font-size: 14px;
+    line-height: 20px;
+    color: #333333;
 }
-
 .menu__item{
-    line-height: 22px;
+    padding-right: 60px;
     font-size: 16px;
+    line-height: 22px;
 }
-
 .menu__call{
-    font-weight: 700;
-    line-height: 24px;
+    padding-left: 52px;
+    padding-right: 30px;
+    color: #333333;
     font-size: 18px;
+    line-height: 24px;
 }
-
+/*КНОПКА НЕ ТРОГАТЬ*/
 .menu__button{
     height: 40px;
     width: 130px;
@@ -44,18 +51,26 @@ body {
     appearance: none;
     border: 0;
 }
+
 .menu__button>*{
+    font-family: Circe;
+    font-style: normal;
     display: inline;
+    vertical-align: middle;
+    color: #333333;
 }
 
 .menu__button__userimg{
+    display: inline-block;
     height: 24px;
-    top: 10px;
-    left: 25px;
     padding-right: 11px;
 }
 .menu__button__title{
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+}
+/*По кнопке всё*/
+
+.event{
+    background-color: 
 }
