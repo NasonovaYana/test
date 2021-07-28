@@ -72,5 +72,105 @@ body {
 /*По кнопке всё*/
 
 .event{
-    background-color: 
+    background: linear-gradient(45deg, #A3B25A, #9DAB53);
+    height: 500px;
+    width: 1370px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 41% 5% 49%;
+}
+.event h1{
+    color: white;
+    width: 460px;
+    font-family: TT Norms;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    
+}
+.event p{
+    color: #F0F1EE;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.event__text{
+    padding-left: 70px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.event__text__title{
+    width: 74px;
+    height: 20px;
+    background-color: #FF794F;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.event__img{
+    padding-left: 168px;
+
+}
+
+.event__img:before
+{
+
+    -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+    -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+    box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+}
+
+/*Как это работает (дейтсвительно)*/
+.how {
+    display: grid;
+    margin-top: 80px;
+    margin-left: 135px;
+    grid-template-columns: repeat(4, 25%) 
+}
+.hw{
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+.how h2{
+    font-family: Circe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #131315;
+}
+.how p{
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6D7077;
+
+}
+.how__item{
+    text-align: center;
+    align-items: center;
+    width: 232px;
+    margin-top: 28px;
 }
