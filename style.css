@@ -154,7 +154,21 @@ body {
     border-radius: 134px;
 }
 
-
+.stickers{
+    position: absolute;
+}
+#stickers1{
+    margin-left: 818px;
+    margin-top: -500px;
+}
+#stickers2{
+    margin-left: 868px;
+    margin-top: -340px;
+}
+#stickers3{
+    margin-left: 778px;
+    margin-top: -200px;
+}
 /*Как это работает (дейтсвительно)*/
 .how {
     display: grid;
