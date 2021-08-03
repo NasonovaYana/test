@@ -6,11 +6,14 @@ body {
 .menu {
     height: 80px;
 }
+.menu a{
+    text-decoration: none;
+    color: #464243;
+}
 .menu ul{
     margin-left: 10%;
     margin-right: 10%;
     list-style: none;
-    color: #464243;
 }
 .menu li{
     display: inline-block;
@@ -224,6 +227,14 @@ body {
     margin-left: 778px;
     margin-top: -200px;
 }
+
+
+
+
+
+
+
+
 /*Как это работает (дейтсвительно)*/
 .how {
     display: grid;
@@ -269,7 +280,44 @@ body {
     margin-top: 28px;
     margin-bottom: 102px;
 }
+
+
+
+
+
+
+
 /*меню*/
+.menu__carousel {
+  position: relative;
+  width: 1440px;
+  padding: 10px 40px;
+    margin-left: 135px;
+
+}
+.menuch {
+    /*margin-left: 135px;*/
+  width: 1170px;
+  overflow: hidden;
+    margin-bottom: 84px;
+}
+
+.menuch ul {
+  height: 480px;
+  width: 19999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+  font-size: 0;
+}
+
+.menuch li {
+  display: inline-block;
+    margin-right: 30px;
+}
 .menu__prev__next__btn div{
     background-color: white;
     display: inline-block;
@@ -279,7 +327,7 @@ body {
     height: 48px;
     border-radius: 24px;
    cursor: pointer;
-    margin-top: 45px;
+    margin-top: 65px;
 }
 .menu__prev{
      position: absolute; 
@@ -293,7 +341,7 @@ body {
     margin-top: 18px;
     margin-left: 15px;
 }
-.menuch{
+/*.menuch{
     padding-top: 80px;
     height: 700px;
     background: #F9FCF9;
@@ -301,7 +349,8 @@ body {
     grid-template-columns: 370px 370px 370px;
     grid-column-gap: 30px;
     margin-left: 11%;
-}
+}*/
+
 .bg{
     background: #F9FCF9;
     padding-top: 20px;
@@ -441,6 +490,7 @@ color: #646365;
     display: inline-block;
     margin-left: 22px;
 }
+
 .menu__item__choose>*
 {
 display: inline-block;
@@ -471,6 +521,74 @@ display: inline-block;
     margin-top: 18px;
     margin-left: 15px;
 }
+/*Переключатель*/
+.slide {
+position: relative;
+left: 7px;
+border-radius: 26px;
+background-color: #F0F1EE;
+width: 140px;
+height: 44px;
+margin-right: 9px;
+overflow: hidden;
+transition: all .25s linear;
+cursor: pointer;
+user-select: none;
+}
+.slide .slide__btn {
+width: 34px;
+height: 34px;
+border-radius: 26px;
+position: absolute;
+top: 5px;
+background: white;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+text-decoration: none;
+left: 5px;
+transition: all 0.4s cubic-bezier(0.33, 1.6, 0.66, 1);
+}
+
+.slide .slide__btn:after {
+content: "Выбрано";
+    display: inline;
+font-family: Circe;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+vertical-align: middle;
+color: #FFF;
+position: absolute;
+left: -80px;
+    top: 5px;
+}
+.slide .slide__btn:before {
+content: "Выбрать";
+    display: inline;
+font-family: Circe;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+vertical-align: middle;
+color: #646365;
+position: absolute;
+left: 53px;
+    top: 5px;
+}
+.slide__btn img{
+    width: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.slide.on {
+background: #A1A75C;
+}
+.slide.on .slide__btn {
+left: 100px;
+background: #747840;
+}
+
 /*footer*/
 .footer{
     margin-left: 10%;
