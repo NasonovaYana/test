@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ШЕФС клаб</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class='menu'>
+    <ul>
+        <li><img class='menu__logo' src="images/Shefs_club_logo.svg"></li>
+        <li><a class='menu__title'>Сервис доставки<br>отборных продуктов</a></li>
+        <li><a class='menu__item' href='#menuch'>Меню</a></li>
+        <li><a class='menu__item' href='#how'>Как это работает</a></li>
+        <li><a class='menu__item' href='#footer'>О нас</a></li>
+        <li><a class='menu__call'><b>+7 (495) 374-65-58</b></a></li>
+        <li>
+            <button class='menu__button'>
+                <img class='menu__button__userimg' src="images/user.svg">
+                <p class='menu__button__title'>Войти</p>
+            </button>
+        </li>
+        <li><a class='menu__item320'><img src="images/phone320.svg"></a></li>
+        <li><a class='menu__item320'><img src="images/login320.svg"></a></li>
+        <li><a class='menu__item320' id='menu__item320__dd'><img src="images/menu320.svg"></a></li>
+    </ul>
+</div>
+<hr color='#E8EAE7'>
+<div class="event__carousel">
+    <div class='event'>
+        <div class='event__text'>
+            <span class='event__text__title'>АКЦИЯ</span>
+            <h1>Шпинатные тальятелле с рыбой в соусе</h1>
+            <p>Доставка продуктов с готовыми рецептами</p>
+            <div class='event__button'>
+                <a href="index.html" class="event__button1">
+                    <div>Купить</div>
+                </a>
+                <a href="index.html" class="event__button2">
+                    <div class='overlay'>Меню</div>
+                </a>
+            </div>
+            <div class="event__spot__div">
+                <div class="spot" id='spot1'>.</div>
+                <div class="spot" id='spot2'>.</div>
+                <div class="spot" id='spot3'>/</div>
+                <div class="spot" id='spot4'>.</div>
+            </div>
+        </div>
+        <div>
+        </div>
+        <img class='event__img' src="images/DSCF8238.png">
+    </div>
+    <div class='event'>
+        <div class='event__text'>
+            <span class='event__text__title'>АКЦИЯ</span>
+            <h1>Второй вариант</h1>
+            <p>Доставка продуктов с готовыми рецептами</p>
+            <div class='event__button'>
+                <a href="index.html" class="event__button1">
+                    <div>Купить</div>
+                </a>
+                <a href="index.html" class="event__button2">
+                    <div class='overlay'>Меню</div>
+                </a>
+            </div>
+            <div class="event__spot__div">
+                <div class="spot" id='spot2'>.</div>
+                <div class="spot" id='spot1'>.</div>
+                <div class="spot" id='spot3'>/</div>
+                <div class="spot" id='spot4'>.</div>
+            </div>
+        </div>
+        <div>
+        </div>
+        <img class='event__img' src="images/DSCF8238.png">
+    </div>
+    <div class='event'>
+        <div class='event__text'>
+            <span class='event__text__title'>АКЦИЯ</span>
+            <h1>Третий вариант</h1>
+            <p>Доставка продуктов с готовыми рецептами</p>
+            <div class='event__button'>
+                <a href="index.html" class="event__button1">
+                    <div>Купить</div>
+                </a>
+                <a href="index.html" class="event__button2">
+                    <div class='overlay'>Меню</div>
+                </a>
+            </div>
+            <div class="event__spot__div">
+                <div class="spot" id='spot2'>.</div>
+                <div class="spot" id='spot3'>/</div>
+                <div class="spot" id='spot1'>.</div>
+                <div class="spot" id='spot4'>.</div>
+
+            </div>
+        </div>
+        <div>
+        </div>
+        <img class='event__img' src="images/DSCF8238.png">
+    </div>
+    <div class='event'>
+        <div class='event__text'>
+            <span class='event__text__title'>АКЦИЯ</span>
+            <h1>Четвёртый вариант</h1>
+            <p>Доставка продуктов с готовыми рецептами</p>
+            <div class='event__button'>
+                <a href="index.html" class="event__button1">
+                    <div>Купить</div>
+                </a>
+                <a href="index.html" class="event__button2">
+                    <div class='overlay'>Меню</div>
+                </a>
+            </div>
+            <div class="event__spot__div">
+                <div class="spot" id='spot2'>.</div>
+                <div class="spot" id='spot3'>/</div>
+                <div class="spot" id='spot4'>.</div>
+                <div class="spot" id='spot1'>.</div>
+
+            </div>
+        </div>
+        <div>
+        </div>
+        <img class='event__img' src="images/DSCF8238.png">
+    </div>
+    <div class="event__prev__next__btn">
+        <div  class="prev"><img src='images/prev.svg'></div>
+        <div class="next"><img src='images/next.svg'></div>
+    </div>
+</div>
+   
+<img src='images/grass.png' class="stickers" id='stickers1'>
+<img src='images/tomato.png' class="stickers" id='stickers2'>
+<img src='images/paper.png' class="stickers" id='stickers3'>
+
+
+<!--Как это работает-->
+
+
+<h1 class="hw" id='how'>Как это работает</h1>
+<div class='how'>
+    <div class="how__item">
+        <img class="how__item__img" src='images/how1.png'>
+        <h2>Выбирайте меню и блюда</h2>
+        <p>Каждую неделю 60 новых рецептов от шеф-поваров и диетологов</p>
+    </div>
+    <div class="how__item">
+        <img class="how__item__img" src='images/how2.png'>
+        <h2>Получайте свежие продукты</h2>
+        <p>Ингредиенты расфасованы под рецепты, доставка бесплатна</p>
+    </div>
+    <div class="how__item">
+        <img class="how__item__img" src='images/how3.png'>
+        <h2>Готовьте за 15-40 минут</h2>
+        <p>С пошаговыми фоторецептами и подготовленными продуктами</p>
+    </div>
+    <div class="how__item">
+        <img class="how__item__img" src='images/how4.png'>
+        <h2>Оформите подписку</h2>
+        <p>Настройте график доставок и получайте продукты со скидкой</p>
+    </div>
+</div>
+
+
+<div class='how__carousel'>
+    <div class="how768">
+        <ul>
+            <li class="how__item">
+                <img class="how__item__img" src='images/how1.png'>
+                <h2>Выбирайте меню и блюда</h2>
+                <p>Каждую неделю 60 новых рецептов от шеф-поваров и диетологов</p>
+            </li>
+            <li class="how__item">
+                <img class="how__item__img" src='images/how2.png'>
+                <h2>Получайте свежие продукты</h2>
+                <p>Ингредиенты расфасованы под рецепты, доставка бесплатна</p>
+            </li>
+
+            <li class="how__item">
+                <img class="how__item__img" src='images/how3.png'>
+                <h2>Готовьте за 15-40 минут</h2>
+                <p>С пошаговыми фоторецептами и подготовленными продуктами</p>
+            </li>
+            <li class="how__item" id='how__item__last'>
+                <img class="how__item__img" src='images/how4.png'>
+                <h2>Оформите подписку</h2>
+                <p>Настройте график доставок и получайте продукты со скидкой</p>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="how__prev__next__btn">
+        <div onClick='' class="how__prev"></div>
+        <div onClick='' class="how__next"></div>
+    </div>
+</div>
+
+
+<script>
+    
+</script>
+<!--Меню-->
+
+
+<div class="bg">
+
+    <div class="menu__prev__next__btn">
+        <div onClick='' class="menu__prev"><img src='images/arrprev.svg'></div>
+        <div onClick='' class="menu__next"><img src='images/arrnext.svg'></div>
+    </div>
+
+    <h1 class="hw" id='menuch'>Меню на 28 мая - 3 июня</h1>
+    <p class="hwh2" align='center'>Доставка этого меню доступна только с 28 мая по 3 июня</p>
+
+    <div class="menuch__btns">
+        <div class="menuch__btns__item"><p>Завтраки</p></div>
+        <div class="menuch__btns__item"><p>Обеды (супы)</p></div>
+        <div class="menuch__btns__item"><p>Ужин</p></div>
+        <div class="menuch__btns__item"><p>ЗОЖ/ПП</p></div>
+        <div class="menuch__btns__item"><p>Veggie</p></div>
+    </div>
+
+
+    <div class='menu__carousel'>
+        <div class="menuch">
+            <ul>
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish1.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose"ф>
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish2.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish3.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish2.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish3.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="D:\test\images\dish2.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="menuch__item">
+                        <p class="menu__item__time">4-7</p>
+                        <img class="menuch__item__img" src="images/dish3.png">
+                        <p class="menu__item__hash" style="margin-left: 28px;">#Обеды (супы)</p>
+                        <p class="menu__item__hash">#ЗОЖ/ПП</p>
+                        <p class="menu__item__hash">#Veggie</p>
+                        <h3>Шпинатные тальятелле с тигровыми креветками в соусе песто россо с кремом из баклажана</h3>
+                        <div class="menu__item__info">
+                            <div class="menu__item__info1">
+                                <img src="images/hatvec.svg">
+                                <span>Готовить легко</span>
+                                <img src='images/down.png' width="8px">
+                                <span id='ready'>Готовить на <b>1 - 2 день</b></span>
+                            </div>
+                            <hr>
+                            <div class="menu__item__choose">
+                                <img src='images/plate.svg' width='20px'>
+                                <p>340 г</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <img src='images/time.svg' width='24px'>
+                                <p>25 мин</p>
+                            </div>
+                            <div class="menu__item__choose">
+                                <div class='slide'>
+                                    <div class='slide__btn'>
+                                        <img src='images/ok.svg'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+            </ul>
+            <script>
+
+              (function () {
+                    document.addEventListener('DOMContentLoaded', function () {
+                        return document.querySelector('.slide').addEventListener(
+                            'click', function () {
+                                if (document.querySelector('.slide').classList.contains('on')) {
+                                    return this.classList.remove('on');
+                                } else {
+                                    return this.classList.add('on')
+                                }
+                            }
+                        )
+                    });
+                }).call(this)
+
+
+
+                
+
+            </script>
+        </div>
+        <div class="menuch__prev__next__btn">
+            <div onClick='' class="menuch__prev"><img src='images/arrprev.svg'></div>
+            <div onClick='' class="menuch__next"><img src='images/arrnext.svg'></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+</script>
+
+
+<!--footer-->
+<footer>
+    <div class='footer' id='footer'>
+        <div class="foorer__item1">
+            <h3>+7 (495) 374-65-58</h3>
+            <p>© 2020 ООО «Шефс клаб»</p>
+            <p>Сервис доставки отборных продуктов</p>
+        </div>
+        <div class="foorer__item2">
+            <h3>О компании</h3>
+            <p>Как это работает?</p>
+            <p>Доставка</p>
+            <p>Отзывы</p>
+        </div>
+        <div class="foorer__item3">
+            <h3>ᅠ ᅠ </h3>
+            <p>Происхождение продуктов</p>
+            <p>Контакты</p>
+        </div>
+        <div class="foorer__item4">
+            <h3>Клиентам</h3>
+            <p>Обратная связь</p>
+            <p>Частые вопросы</p>
+            <p>Кешбэк</p>
+            <p>Пользовательское соглашение</p>
+        </div>
+        <div class="foorer__item15">
+            <p>Подпишитесь и получайте рецепты изумительно вкусных блюд!</p>
+            <form>
+                <input type="text" class="footer__input" placeholder="Введите ваш e-mail">
+                <div onClick='' class="footer__submit"><img src='images/Vector.png' width="16px"
+                                                            class="footer__submit__svg"></div>
+            </form>
+            <div class="footer__cont">
+                <div class="footer__img"><img src="images/fb.svg" id='fb'></div>
+                <div class="footer__img"><img src="images/vk.svg" id='vk'></div>
+                <div class="footer__img"><img src="images/inst.svg" id='inst'></div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
